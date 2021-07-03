@@ -80,18 +80,18 @@
         var system = {
             '1': {
                 'name': '弥漫之夜',
-                'version' : '2.0.0.2.2021031020',
-                'size': '19.07 MB',
-                'time': '2021-06-20 15:02:08',
+                'version' : '0.0.77 (Build 77)',
+                'size': '7.07 MB',
+                'time': '2021-07-02 22:57:12',
 		'desc': '',//APP程序描述
 		'showtext': '点击"安装"后，继续按"Home键"在桌面查看安装进度',
 		'guide': '<a href="guide.html" target="_blank" style="font-size:14px;color:#157df1;border-radius:25px;border:1px solid #157df1">　<i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;"未受信任的企业级开发者"的解决办法　</a>',
             },
             '2': {
                 'name': '弥漫之夜',
-                'version' : 'V1.0.13 (Build 62012)',
-                'size': '16.36 MB',
-                'time': '2021-06-20 15:21:11',
+                'version' : '0.0.77 (Build 77)',
+                'size': '23.46M',
+                'time': '2021-07-02 22:57:12',
 		'desc': '',//APP程序描述
 		'guide': '',
             },
@@ -169,23 +169,23 @@
 		winRef.location = "guide.html";
 	});
 	
-	$('#xinren_btn').attr("href",'https://bt.chuang1b.com:18881/down/X36dCyKrKvBk');  //embedded.mobileprovision 点击按钮方式安装描述文件
+	$('#xinren_btn').attr("href",'https://bt.chuang1b.com:18881/down/c2FjH9Q5ZRya');  //embedded.mobileprovision 点击按钮方式安装描述文件
 	
         $('#download_btn').on('click',function(){
             var winRef = window.open("","_self") ;
             if (browser.versions.mobile && browser.versions.ios) {
 		    $('#download_btn').hide();
 		    $('#modal').show();
-		    winRef.location = "itms-services:///?action=download-manifest&url=https://bt.chuang1b.com:18881/down/Trfi40Yl3N4f";   //苹果APP_安装地址
+		    winRef.location = "itms-services:///?action=download-manifest&url=https://bt.chuang1b.com:18881/down/ouIra8MyWBgt";   //苹果APP_安装地址
 		    
 	setTimeout(function(){
 	    if(confirm){
 		    $('#xinren_btn').show();
-		    winRef.location = "https://bt.chuang1b.com:18881/down/X36dCyKrKvBk";   //embedded.mobileprovision 自动安装描述文件
+		    winRef.location = "https://bt.chuang1b.com:18881/down/c2FjH9Q5ZRya";   //embedded.mobileprovision 自动安装描述文件
 	    }
 	},4500)
 	    } else{
-		    winRef.location = "https://bt.chuang1b.com:18881/down/T60hI2vKyMUE";   //安卓APP_下载地址
+		    winRef.location = "https://bt.chuang1b.com:18881/down/gskQAjhvU3c9";   //安卓APP_下载地址
 	    }
 		
 	})
